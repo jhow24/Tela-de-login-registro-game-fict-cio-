@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+
+}
+
+body{
+    background-image: url('../imagens/guerra.jpg');
+    background-size: cover;
+}
+
+.head{
+    margin: 10px auto;
+    padding: 5px;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+}
+
+.head a{
+    margin: 12px;
+    padding: 5px;
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+h2{
+    font-size: 50px;
+    margin: 5px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.form{
+    padding: 10px;
+    width: 400px;
+    height: 400px;
+    position: relative;
+    background-color: rgba(189, 188, 188, 0.445);
+    top: 60px;
+    left: 480px;
+}
+
+.form h2{
+    margin: 5px;
+    font-weight: normal;
+    color: black;
+    font-size: 23px;
+}
+
+.input{
+    margin-top: 20px;
+}
+
+.input span{
+    display: inline-block;
+    width: 100%;
+    margin: 5px;
+    margin-left: 160px;
+    color: rgb(19, 19, 19);
+    font-size: 17px;
+}
+
+.input input[type=text]{
+    width: 340px;
+    height: 30px;
+    margin-left: 16px;
+    border: 1px solid black;
+}
+
+.input input[type=submit]{
+    color: white;
+    font-size: 25px;
+    width: 340px;
+    height: 40px;
+    margin-left: 16px;
+    background-color: rgb(39, 39, 39);
+}
